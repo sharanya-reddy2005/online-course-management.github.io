@@ -1,0 +1,105 @@
+body{
+    background-color:#89e3d7 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #d3c885;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration:underline;
+}
+#addCourseBtn{
+    margin-left:40%;
+    width:160px;
+    height:40px;
+    font-size: 20px;
+    font-weight:bold ;
+    background-color:#d3c885;
+    color:white;
+    border: 2px;
+    border-radius: 7px;
+}
+#addCourseBtn:hover{
+    background-color:#989162;
+}
+button {
+    margin-bottom: 50px;
+}
+
+.course {
+    background-color: #f0f0f0;
+    width:97%;
+    height:90px;
+    padding: 20px;
+    margin-bottom: 17px;
+    font-size: 30px;
+    font-weight:500;
+    border-radius: 7px;
+    box-shadow: 7px 7px 15px rgb(192, 192, 192);
+}
+
+.course-name {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button.view {
+    float:right;
+    margin-right: 25px;
+    margin-left: 20px;
+    width:80px;
+    height:30px;
+    font-weight: bold;
+    background-color: #dc3545;
+    border-radius: 6px;
+    color:white;
+    border:2px solid;
+    font-size:18px;
+}
+button.view:hover{
+    background-color:#bd2130;
+}
+
+button.delete {
+    float:right;
+    width:80px;
+    height:30px;
+    font-weight: bold;
+    background-color: #dc3545;
+    border-radius: 6px;
+    color:white;
+    border:2px solid;
+    font-size:18px;
+}
+button.delete:hover{
+    background-color:#bd2130;
+}
+
+.logout{
+    position:relative;
+    border:2px;
+    width:95px;
+    height:28px;
+    border-radius:7px;
+    font-size: 19px;
+    padding:2px;
+    background-color:#dc3545 ;
+    margin-left: 26.6%;
+    
+}
+.logout:hover{
+    background-color:#bd2130;
+}
+.logouta{
+    text-align: center;
+    padding:9px;
+    text-decoration: none;
+    color:white;
+    font-weight:bold ;
+}

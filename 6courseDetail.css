@@ -1,0 +1,92 @@
+body{
+    background-color:#89e3d7 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #d3c885;
+    border-radius: 7px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+button {
+    margin-bottom:30px;
+    margin-left:40%;
+    width:150px;
+    height:37px;
+    font-size: 19px;
+    font-weight:bold ;
+    background-color:#d3c885;
+    color:white;
+    border: 2px;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: #989162;
+}
+
+.topic {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 17px;
+    border-radius:7px;
+    box-shadow: 5px 5px 10px rgb(181, 180, 180);
+}
+
+.topic-name{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.topic button {
+    margin-left: 15px;
+    width:120px;
+    background-color: #dc3545;
+}
+.topic button:hover {
+    background-color: #bd2130;
+}
+
+.file-list {
+    margin-bottom: 5px;
+    background-color:#d0c36c;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.participants{
+    text-decoration: none;
+    color:#dc3545;
+    font-size: 20px;
+    font-weight:bold;
+    border:2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.goback{
+    margin-left: 26.5%;
+    border:2px;
+    width:110px;
+    height:35px;
+    border-radius:7px;
+    background-color:#d3c885 ;
+    font-size: 20px;
+}
+.goback:hover{
+    background-color:#989162;
+}
+.gobacka{
+    text-align: center;
+    padding:15px;
+    text-decoration: none;
+    color:white;
+    font-weight:bold ;
+}
+
